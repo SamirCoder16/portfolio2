@@ -32,6 +32,7 @@ const Contact = () => {
           title={"contact"}
           text={text}
           textColor={"text-white/80"}
+          withScrollTrigger={true}
         />
         <div className="flex px-10 font-light text-white/80 uppercase lg:text-[32px] text-[26px] leading-none mb-10">
           <div className="flex flex-col w-full gap-10">
@@ -71,7 +72,7 @@ const Contact = () => {
         </div>
       </div>
   <div className="social-link hidden sm:flex absolute bottom-10 right-10 p-4 flex-row items-center gap-6">
-        <img src={'/images/heart.png'} alt="heart" className="w-14 h-14 sm:w-20 sm:h-20 md:w-28 md:h-28 animate-none transition-all duration-300"/>
+        <img src={'/images/heart.png'} alt="heart" className="w-14 hover:scale-125 h-14 sm:w-20 sm:h-20 md:w-28 md:h-28 animate-none transition-all duration-300"/>
         <h1 className="uppercase banner-text-responsive text-white/30 text-center sm:text-left mt-2 sm:mt-0">from kolkata</h1>
       </div>
     </section>
